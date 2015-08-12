@@ -1,0 +1,11 @@
+{
+  "name": "co-loopback-my-authorizations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "co-loopback-my-authorizations.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
