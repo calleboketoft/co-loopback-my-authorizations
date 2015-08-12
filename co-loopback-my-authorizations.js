@@ -7,7 +7,6 @@ module.exports = function (User) {
     // see which authorizations any user has
     User.myAuthorizations = function (cb) {
         var loopback = require('loopback');
-        var app = require('../../server/server');
         var RoleMapping = app.models.RoleMapping;
         var Role = app.models.Role;
         var ACL = app.models.ACL;
@@ -78,3 +77,4 @@ module.exports = function (User) {
         description: 'Find all ACLs with permission "ALLOW" and roles for the currently authenticated user.'
     });
 };
+//# sourceMappingURL=co-loopback-my-authorizations.js.map

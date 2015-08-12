@@ -8,7 +8,6 @@ module.exports = function (User) {
   // see which authorizations any user has
   User.myAuthorizations = (cb) => {
     var loopback = require('loopback')
-    var app = require('../../server/server')
     var RoleMapping = app.models.RoleMapping
     var Role = app.models.Role
     var ACL = app.models.ACL
