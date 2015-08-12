@@ -1,6 +1,7 @@
 // Use in the file 'common/models/User.js' like this:
 // require('../../co-loopback-my-authorizations')(User)
 
+var debug = require('debug')('model:user')
 module.exports = function (User) {
   // Fetch authorizations for current user's id and roles
   // TODO this could be modified to take a user id as param to

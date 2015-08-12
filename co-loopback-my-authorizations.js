@@ -1,5 +1,6 @@
 // Use in the file 'common/models/User.js' like this:
 // require('../../co-loopback-my-authorizations')(User)
+var debug = require('debug')('model:user');
 module.exports = function (User) {
     // Fetch authorizations for current user's id and roles
     // TODO this could be modified to take a user id as param to
@@ -77,4 +78,3 @@ module.exports = function (User) {
         description: 'Find all ACLs with permission "ALLOW" and roles for the currently authenticated user.'
     });
 };
-//# sourceMappingURL=co-loopback-my-authorizations.js.map
